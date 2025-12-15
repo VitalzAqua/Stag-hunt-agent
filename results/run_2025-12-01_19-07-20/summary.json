@@ -1,0 +1,906 @@
+{
+  "low_a_low_e": {
+    "alpha": 0.1,
+    "epsilon": 0.05,
+    "noise_stats": {
+      "0.000": {
+        "noise_p": 0.0,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.9504,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 9504.0,
+          "SH": 250.0,
+          "HS": 233.0,
+          "HH": 13.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 9754.0,
+            "Hare": 246.0
+          },
+          "avg_executed_counts": {
+            "Stag": 9754.0,
+            "Hare": 246.0
+          },
+          "avg_final_Q": {
+            "Stag": 3.984738639720516,
+            "Hare": 2.9975666152995473
+          },
+          "preferred_action": "Stag"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 9737.0,
+            "Hare": 263.0
+          },
+          "avg_executed_counts": {
+            "Stag": 9737.0,
+            "Hare": 263.0
+          },
+          "avg_final_Q": {
+            "Stag": 3.9811562009853865,
+            "Hare": 2.999515623735873
+          },
+          "preferred_action": "Stag"
+        },
+        "equilibrium": "payoff_dominant"
+      },
+      "0.050": {
+        "noise_p": 0.05,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0681,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 681.0,
+          "SH": 675.0,
+          "HS": 652.0,
+          "HH": 7992.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 958.0,
+            "Hare": 9042.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1356.0,
+            "Hare": 8644.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.5485795517879755,
+            "Hare": 2.0933121915941224
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 943.0,
+            "Hare": 9057.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1333.0,
+            "Hare": 8667.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.13176059023244094,
+            "Hare": 1.9077285421162582
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.100": {
+        "noise_p": 0.1,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.1675,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1675.0,
+          "SH": 1049.0,
+          "HS": 1038.0,
+          "HH": 6238.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 2152.0,
+            "Hare": 7848.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2724.0,
+            "Hare": 7276.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.11584137525200515,
+            "Hare": 2.224901369678762
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 2152.0,
+            "Hare": 7848.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2713.0,
+            "Hare": 7287.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.33085186228657726,
+            "Hare": 1.6356701840299888
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.200": {
+        "noise_p": 0.2,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0884,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 884.0,
+          "SH": 1708.0,
+          "HS": 1662.0,
+          "HH": 5746.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1018.0,
+            "Hare": 8982.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2592.0,
+            "Hare": 7408.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.150383213804105,
+            "Hare": 1.9483001457962918
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1008.0,
+            "Hare": 8992.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2546.0,
+            "Hare": 7454.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.7980340955596266,
+            "Hare": 1.8071477275426846
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.300": {
+        "noise_p": 0.3,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.1332,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1332.0,
+          "SH": 2238.0,
+          "HS": 2207.0,
+          "HH": 4223.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1423.0,
+            "Hare": 8577.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3570.0,
+            "Hare": 6430.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.1735338454224817,
+            "Hare": 2.1160946068180086
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1279.0,
+            "Hare": 8721.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3539.0,
+            "Hare": 6461.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.5228206326541438,
+            "Hare": 2.0801128025252713
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      }
+    }
+  },
+  "low_a_high_e": {
+    "alpha": 0.1,
+    "epsilon": 0.3,
+    "noise_stats": {
+      "0.000": {
+        "noise_p": 0.0,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0408,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 408.0,
+          "SH": 1245.0,
+          "HS": 1311.0,
+          "HH": 7036.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1653.0,
+            "Hare": 8347.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1653.0,
+            "Hare": 8347.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.4488481628182038,
+            "Hare": 2.162034216691663
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1719.0,
+            "Hare": 8281.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1719.0,
+            "Hare": 8281.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.5119911505000885,
+            "Hare": 2.266083898284439
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.050": {
+        "noise_p": 0.05,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0327,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 327.0,
+          "SH": 1562.0,
+          "HS": 1541.0,
+          "HH": 6570.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1556.0,
+            "Hare": 8444.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1889.0,
+            "Hare": 8111.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.3920617287138146,
+            "Hare": 1.8808122368816775
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1537.0,
+            "Hare": 8463.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1868.0,
+            "Hare": 8132.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.1572443054522812,
+            "Hare": 2.1766143986730935
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.100": {
+        "noise_p": 0.1,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0469,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 469.0,
+          "SH": 1694.0,
+          "HS": 1728.0,
+          "HH": 6109.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1507.0,
+            "Hare": 8493.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2163.0,
+            "Hare": 7837.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.8425579822787905,
+            "Hare": 2.245213628355087
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1468.0,
+            "Hare": 8532.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2197.0,
+            "Hare": 7803.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.7497983501367401,
+            "Hare": 2.0224256938965106
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.200": {
+        "noise_p": 0.2,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.1051,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1051.0,
+          "SH": 2120.0,
+          "HS": 2151.0,
+          "HH": 4678.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1911.0,
+            "Hare": 8089.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3171.0,
+            "Hare": 6829.0
+          },
+          "avg_final_Q": {
+            "Stag": 2.3056684462365165,
+            "Hare": 1.6338269304913742
+          },
+          "preferred_action": "Stag"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1882.0,
+            "Hare": 8118.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3202.0,
+            "Hare": 6798.0
+          },
+          "avg_final_Q": {
+            "Stag": 2.424816794598769,
+            "Hare": 2.3378548029936863
+          },
+          "preferred_action": "Stag"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.300": {
+        "noise_p": 0.3,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.16,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1600.0,
+          "SH": 2279.0,
+          "HS": 2536.0,
+          "HH": 3585.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 2484.0,
+            "Hare": 7516.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3879.0,
+            "Hare": 6121.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.707462507461277,
+            "Hare": 1.3807449036188288
+          },
+          "preferred_action": "Stag"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 2716.0,
+            "Hare": 7284.0
+          },
+          "avg_executed_counts": {
+            "Stag": 4136.0,
+            "Hare": 5864.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.9246231344693796,
+            "Hare": 2.2117436645141115
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      }
+    }
+  },
+  "high_a_low_e": {
+    "alpha": 0.5,
+    "epsilon": 0.05,
+    "noise_stats": {
+      "0.000": {
+        "noise_p": 0.0,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0207,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 207.0,
+          "SH": 252.0,
+          "HS": 247.0,
+          "HH": 9294.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 459.0,
+            "Hare": 9541.0
+          },
+          "avg_executed_counts": {
+            "Stag": 459.0,
+            "Hare": 9541.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.24999999999999997,
+            "Hare": 2.0000000298023224
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 454.0,
+            "Hare": 9546.0
+          },
+          "avg_executed_counts": {
+            "Stag": 454.0,
+            "Hare": 9546.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.031249999999999997,
+            "Hare": 2.0000000298023224
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.050": {
+        "noise_p": 0.05,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0204,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 204.0,
+          "SH": 732.0,
+          "HS": 777.0,
+          "HH": 8287.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 464.0,
+            "Hare": 9536.0
+          },
+          "avg_executed_counts": {
+            "Stag": 936.0,
+            "Hare": 9064.0
+          },
+          "avg_final_Q": {
+            "Stag": 3.817535802364942e-06,
+            "Hare": 1.9995126724226049
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 495.0,
+            "Hare": 9505.0
+          },
+          "avg_executed_counts": {
+            "Stag": 981.0,
+            "Hare": 9019.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.5002441408142317,
+            "Hare": 2.0003652572636996
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.100": {
+        "noise_p": 0.1,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0213,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 213.0,
+          "SH": 1048.0,
+          "HS": 1135.0,
+          "HH": 7604.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 393.0,
+            "Hare": 9607.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1261.0,
+            "Hare": 8739.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.0005131345972420607,
+            "Hare": 1.9377741552889634
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 464.0,
+            "Hare": 9536.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1348.0,
+            "Hare": 8652.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.09380373032834657,
+            "Hare": 2.029968563467278
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.200": {
+        "noise_p": 0.2,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0659,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 659.0,
+          "SH": 1828.0,
+          "HS": 1809.0,
+          "HH": 5704.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 790.0,
+            "Hare": 9210.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2487.0,
+            "Hare": 7513.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.06892808376962031,
+            "Hare": 1.93846708552568
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 826.0,
+            "Hare": 9174.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2468.0,
+            "Hare": 7532.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.5166032410652435,
+            "Hare": 2.0312285188372563
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.300": {
+        "noise_p": 0.3,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.1515,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1515.0,
+          "SH": 2236.0,
+          "HS": 2453.0,
+          "HH": 3796.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1863.0,
+            "Hare": 8137.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3751.0,
+            "Hare": 6249.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.7008918214000139,
+            "Hare": 0.15051557200074622
+          },
+          "preferred_action": "Stag"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 2166.0,
+            "Hare": 7834.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3968.0,
+            "Hare": 6032.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.6227278427336804,
+            "Hare": 2.8492304996920885
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      }
+    }
+  },
+  "high_a_high_e": {
+    "alpha": 0.5,
+    "epsilon": 0.3,
+    "noise_stats": {
+      "0.000": {
+        "noise_p": 0.0,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0554,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 554.0,
+          "SH": 1349.0,
+          "HS": 1306.0,
+          "HH": 6791.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 1903.0,
+            "Hare": 8097.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1903.0,
+            "Hare": 8097.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.06587269158610809,
+            "Hare": 2.0000174643937925
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 1860.0,
+            "Hare": 8140.0
+          },
+          "avg_executed_counts": {
+            "Stag": 1860.0,
+            "Hare": 8140.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.5610370650096215,
+            "Hare": 2.126343026866383
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.050": {
+        "noise_p": 0.05,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0786,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 786.0,
+          "SH": 1650.0,
+          "HS": 1628.0,
+          "HH": 5936.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 2131.0,
+            "Hare": 7869.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2436.0,
+            "Hare": 7564.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.009036994297275992,
+            "Hare": 2.023445136990632
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 2118.0,
+            "Hare": 7882.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2414.0,
+            "Hare": 7586.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.009780809210841882,
+            "Hare": 2.539566170450201
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.100": {
+        "noise_p": 0.1,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.0923,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 923.0,
+          "SH": 1920.0,
+          "HS": 1863.0,
+          "HH": 5294.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 2294.0,
+            "Hare": 7706.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2843.0,
+            "Hare": 7157.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.0624702654344083,
+            "Hare": 2.0710466003733936
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 2212.0,
+            "Hare": 7788.0
+          },
+          "avg_executed_counts": {
+            "Stag": 2786.0,
+            "Hare": 7214.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.062379851993713466,
+            "Hare": 1.9692398645140532
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.200": {
+        "noise_p": 0.2,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.1386,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1386.0,
+          "SH": 2266.0,
+          "HS": 2269.0,
+          "HH": 4079.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 2748.0,
+            "Hare": 7252.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3652.0,
+            "Hare": 6348.0
+          },
+          "avg_final_Q": {
+            "Stag": 1.0752498610667542,
+            "Hare": 2.0173043890484443
+          },
+          "preferred_action": "Hare"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 2883.0,
+            "Hare": 7117.0
+          },
+          "avg_executed_counts": {
+            "Stag": 3655.0,
+            "Hare": 6345.0
+          },
+          "avg_final_Q": {
+            "Stag": 0.3410110755229435,
+            "Hare": 1.96922893972835
+          },
+          "preferred_action": "Hare"
+        },
+        "equilibrium": "risk_dominant"
+      },
+      "0.300": {
+        "noise_p": 0.3,
+        "n_runs": 1,
+        "n_episodes": 10000,
+        "coop_rate_mean": 0.1945,
+        "coop_rate_std": 0.0,
+        "avg_outcomes": {
+          "SS": 1945.0,
+          "SH": 2505.0,
+          "HS": 2378.0,
+          "HH": 3172.0
+        },
+        "agent1": {
+          "avg_intended_counts": {
+            "Stag": 3483.0,
+            "Hare": 6517.0
+          },
+          "avg_executed_counts": {
+            "Stag": 4450.0,
+            "Hare": 5550.0
+          },
+          "avg_final_Q": {
+            "Stag": 2.866262040752548,
+            "Hare": 0.8284449449421163
+          },
+          "preferred_action": "Stag"
+        },
+        "agent2": {
+          "avg_intended_counts": {
+            "Stag": 3420.0,
+            "Hare": 6580.0
+          },
+          "avg_executed_counts": {
+            "Stag": 4323.0,
+            "Hare": 5677.0
+          },
+          "avg_final_Q": {
+            "Stag": 2.7936262511987495,
+            "Hare": 2.40967846752794
+          },
+          "preferred_action": "Stag"
+        },
+        "equilibrium": "risk_dominant"
+      }
+    }
+  }
+}

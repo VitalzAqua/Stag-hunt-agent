@@ -1,0 +1,17 @@
+{
+  "noise_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "low_alpha": 0.1,
+  "high_alpha": 0.5,
+  "low_epsilon": 0.05,
+  "high_epsilon": 0.3,
+  "episodes": 10000,
+  "n_runs_per_combo": 1,
+  "seed": 0
+}
